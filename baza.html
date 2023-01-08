@@ -1,0 +1,531 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">>
+	<title>Базовая оптимизация Windows</title>
+	<link rel="stylesheet" type="text/css" href="baza.css">
+	<script defer src="baza.js"></script>
+</head>
+<style class="fon">
+	body {
+		background: #14141f url(baza/4.jpg);
+		background-attachment: fixed;
+	}
+</style>
+<body bgcolor="black">
+	
+	<style type="text/css">
+		a {
+			text-decoration: none;
+		}
+	</style>
+	<div class="tag">
+		<ul>
+			<p>Содержание:</p>
+			<li><a href="#mce-head-0"><span class="colortext">Установка Драйверов</span></a></li> 
+			<li><a href="#mce-head-1"><span class="colortext">Настройки Windows</span></a></li>
+			<li><a href="#mce-head-2"><span class="colortext">Быстродействие</span></a></li>
+			<li><a href="#mce-head-3"><span class="colortext">Питание</span></a></li>
+			<li><a href="#mce-head-4"><span class="colortext">Дефрагментация диска и его очистка</span></a></li>
+			<ul>
+			<li><a href="#mce-head-5"><span class="colortext">Дефрагментация и что это</span></a></li>
+			<li><a href="#mce-head-6"><span class="colortext">Очистка мусора</span></a></li>
+			</ul>
+			<li><a href="#mce-head-7"><span class="colortext">Фоновые приложения и автозагрузка</span></a>
+			<ul>
+			<li><a href="#mce-head-8"><span class="colortext">Фоновые приложения</span></a></li>
+			<li><a href="#mce-head-9"><span class="colortext">Автозагрузка</span></a></li>
+			</ul>
+			<li><a href="#mce-head-10"><span class="colortext">Удаление не нужных приложений Microsoft и других программ. Как правильно удалять</span></a></li>
+			</li>
+			<ul>
+			<li><a href="#mce-head-11"><span class="colortext">Простое удаление приложений Microsoft</span></a></li>
+			<li><a href="#mce-head-12"><span class="colortext">Первый вариант удаление "неудаляемых" приложений Windows и других программ.</span></a></li>
+			<li><a href="#mce-head-13"><span class="colortext">Второй вариант удаление "неудаляемых" приложений Windows</span></a></li>
+			</ul>
+			<li><a href="#mce-head-14"><span class="colortext">Специальные возможности</span></a></li>
+		</ul>
+	</div>
+	<h1>
+		<center>
+			БАЗОВАЯ ОПТИМИЗАЦИЯ WINDOWS 10
+		</center>
+	</h1>
+	<br>
+	<br>
+<div style="text-align: center;">
+	<h1 id="mce-head-0"></h1>
+	<p>
+		Базовая оптимизация. Эту оптимизацию я делаю каждый раз, когда переустанавливаю Window, проблем никаких не было. Базовая настройка абсолютно безопасна для обычного пользователя, и без всякого опыта может сделать каждый человек. В этой теме я покажу и расскажу, как сделать обычную и простую оптимизацию, чтобы ПК мог "свободно дышать". Все статьи на сайте я делаю в основном для пользователей системного блока. Для людей с ноутбуками, буду делать какие-либо примечания.
+	</p>
+	<br>
+	<br>
+	<h1> Драйвера </h1>
+	<p>
+		Для начала установим драйвера, видеокарты, аудио, материнской платы, чипсеты и т.д. (Обновление драйверов BIOS показывать не буду, так как это довольно опасная и очень внимательная работа)
+	</p>
+	<p>
+		<h3>Драйвера на видеокарту</h3> Выбираем свою карту и скачиваем на официальном сайте, от Nvidia<a href="https://www.nvidia.com/Download/index.aspx?lang=ru"> ссылка. </a> От AMD<a href="https://www.amd.com/en/support"> ссылка</a>
+	</p>
+	<p>
+		Если не знаете свою видеокарту пишите в поиске > Диспетчер устройств > Видеоадаптеры. В моем случае у меня видеокарта от Nvidia, скачиваю драйвера и GeForce Experience. Видео помощник <a href="https://www.youtube.com/watch?v=BamGYNJsulk&t=1s&ab_channel=Ramtech">ссылка</a>
+	</p>
+
+	<img id="myImg" src="baza/n1.png" alt="" style="width:400px">
+	<img id="myImg2" src="baza/n2.png" alt="" style="width:450px">
+
+	<div id="myModal" class="modal">
+	  <span class="close">×</span>
+	  <img class="modal-content" id="img01">
+	  <div id="caption"></div>
+	</div>
+
+	
+	<h3>
+		Драйера на материнскую плату
+	</h3>
+	<p>
+		У каждого материнская плата разная, чтобы узнать какая у вас заходим в поиск > Сведения о системе > Изготовитель и Модель
+	</p>
+	<p>
+
+	<img id="myImg3" src="baza/s1.png" alt="" style="width:400px">
+	<img id="myImg4" src="baza/s2.png" alt="" style="width:500px">
+
+	<div id="myModal" class="modal">
+	  <span class="close">×</span>
+	  <img class="modal-content" id="img01">
+	  <div id="caption"></div>
+	</div>
+	<h1 id="mce-head-1"></h1>
+		Ищем свои драйвера на материнскую плату на официальном сайте. Скачивайте Cheapset  и аудио драйвера Realtek. Можете еще скачать LAN, он отвечает за подстветку ваших кулеров, если имеете возможность. Скачиваем. 
+	</p>
+	<br>
+	<br>
+	<h1>
+		<center>
+			Настройка Windows
+		</center>
+	</h1>
+	<p>
+		Далее мы будем освобождать не нужные процессы Windows. И делать нащу систему более удобной.
+	</p>
+	<h2>
+		Панель задач
+	</h2>
+	<p>
+		Заходим в Параметры панели задачь. Правой кнопкой по нижней панели > Параметры панели задачь. Выключаем, то что вам не нужно:
+	</p>
+	<div class="info">
+		<input id="info__body_1" class="info__button" type="checkbox">
+		<label for="info__body_1" class="info__headline">
+			Скриншоты 
+		</label>
+  		<div class="info__body">
+			<img src="baza/w1.png" width="600">
+			<img src="baza/w2.png" width="600">
+			<p>Память сам очищаю</p>
+			<img src="baza/w3.png" width="600">
+			<img src="baza/w4.png" width="600">
+			<p>Многозадачность полезная, если пользуетесь не отключайте. Я этим не пользуюсь</p>
+			<img src="baza/w5.png" width="600">
+			<img src="baza/w6.png" width="600">
+			<img src="baza/w7.png" width="600">
+			<img src="baza/w8.png" width="600">
+			<p>Настройки пуска, если у вас другие, кастомные, тогда оставляйте свои</p>
+			<img src="baza/w9.png" width="600">
+			<p>Так же и с панель задач, у меня стоят самые обычные и оптимальные</p>
+			<img src="baza/w10.png" width="600">
+			<img src="baza/w11.png" width="600">
+			<img src="baza/w12.png" width="600">
+			<img src="baza/w12_1.png" width="600">
+			<img src="baza/w13.png" width="600">
+			<img src="baza/w14.png" width="600">
+			<p>Xbox Game Bar  не пользуют, так что смело отключаю</p>
+			<img src="baza/w15.png" width="600">
+			<p>Игровой режим обязательно включайте</p> 
+			<img src="baza/w16.png" width="600">
+			<p>Ставим Выкл.</p>
+			<img src="baza/w17.png" width="600">
+			<p>Далее идут параметры, который следят и анализируют пользователей. Я все это отключаю, кроме Камеры, Микрофона и последних 3-х вкладок</p> 
+			<img src="baza/w18.png" width="600">
+			<img src="baza/w19.png" width="600">
+			<img src="baza/w20.png" width="600">
+			<img src="baza/w21.png" width="600">
+			<img src="baza/w22.png" width="600">
+			<img src="baza/w23.png" width="600">
+			<img src="baza/w24.png" width="600">
+			<img src="baza/w25.png" width="600">
+			<img src="baza/w26.png" width="600">
+			<img src="baza/w27.png" width="600">
+			<img src="baza/w28.png" width="600">
+			<img src="baza/w29.png" width="600">
+			<img src="baza/w30.png" width="600">
+			<img src="baza/w31.png" width="600">
+			<img src="baza/w32.png" width="600">
+			<img src="baza/w33.png" width="600">
+			<p>Уведомления я тоже все выключаю, меньше нагрузки и не отвлекает</p>
+			<img src="baza/w34.png" width="600">
+		</div>
+	</div>
+	<h2>Далее проверьте Обновление Windows. Проверить наличие обновлений, если есть, то скачивайте </h2>
+	<img src="baza/a1.png" width="600">
+	<h1 id="mce-head-2"></h1>
+	<img src="baza/a2.png" width="600">
+	<div>
+		<h1>
+			Быстродействие
+		</h1>
+		<img src="baza/b1.png" width="600">
+		<img src="baza/b2.png" width="600">
+		<img src="baza/b3.png" width="400">
+		<p>
+			Рекомендуется все эффекты убрать, оставляйте сглаживание шрифтов, чтобы приятно глазам было. Добавится больше фпс в играх, бестрее компьютер будет работать.
+		</p>
+		<img src="baza/b4.png" width="400">
+		<p>
+			В виртуальной памяти ставим свой размер оперативной памяти. Например, у меня 16 ГБ оперативки, умножаю на 1024, 16*1024=16384 МБ. Здадать > Ок.
+		</p>
+		<img src="baza/b5.png" width="400">
+
+		<img src="baza/b6.png" width="600">
+		<h1 id="mce-head-3"></h1>
+	</div>
+	<div>
+		<h1>
+			Питание
+		</h1>
+		<p>
+			Электроптание будем ставить на максимальную производительность, так как в таком режиме работа ПК и игр будет на много быстрее.
+		</p>
+		<img src="baza/p1.png" width="600">
+		<img src="baza/p2.png" width="600">
+		<p>
+			Завставку выключаем и ставим Максимальную производительность.
+		</p>
+		<img src="baza/p3.png" width="600">
+		
+		<img src="baza/p4.png" width="600">
+		<p>
+			Далее Заходим в настройки электоропитания. Отключть диспелей: 45 мин. Спящий режим никогда.
+		</p>
+		<img src="baza/p5.png" width="600">
+		<p>
+			Кликаем на дополнительные параметры питания, отключать жесткий диск через, ставим большое число, 999999. Применить > Ок.
+		</p>
+		<img src="baza/p6.png" width="600">
+		<p>
+			Заходим в Панель управления Nvidia > Управление параметрами 3D > Режим управления электропитания на максимальную производительность. 
+		</p>
+		<img src="baza/p7.png" width="600">
+	</div>
+	<div>
+		<h1 id="mce-head-4"></h1>
+		<h1>
+			Дефрагментация диска и его очистка
+		</h1>
+		<h1 id="mce-head-5"></h1>
+		<p>
+			В этом разделе будем ускорять работу и читку диска, а так же удалять временые файлы. 
+		</p>
+		<br>
+		<div class="info">
+		<input id="info__body_2" class="info__button_1" type="checkbox">
+		<label for="info__body_2" class="info__headline_1">
+			Что такое дефрагментация диска? 
+		</label>
+	  		<div class="info__body_1">
+				<p>
+					Перераспределение файлов на диске. Запись их по порядку для быстрого доступа к ним. Чаще всего это ипользуется к обычным накопителям, так как информация там записывается на диск и современем при частой перезаписи файлов, данные на пластинах сохраняются уже в разных частях этого диска.
+					Посмотрим на фото. 	
+				</p>
+				<img src="baza/def.png" width="200"> 
+				<p>
+					Это диск без дефрaгментации. Условно, мы скачали фильм, кусочки фильма разбросаны по разным местам диска. Для того, чтобы его проиграть головка жесткого диска должна постоянно перемещаться. 
+					Задача дефрaгментации собрать все фрагменты нашего файла и поместить их рядом. Таким образом время на поиск файла уменьшает и ПК будет работать быстрее. Делать дефрагментацию диска нужно, но только не для SSD дисков, система чтения у них другая и дефрагментация для них не будет работать. 
+				</p>
+			</div>
+		</div>	
+		<br>
+		<br>
+		<img src="baza/d1.png" width="600">
+		<p>
+			Убираем галочку с Разрешить индексировать
+		</p>
+		<img src="baza/d2.png" width="600">
+		<p>
+			Выбираем к диск > Ок > Подтверждаю. Делаем так на всех дисках, на это потребуется время.
+		</p>
+		<img src="baza/d2_2.png" width="600">
+		<img src="baza/d3.png" width="600">
+		<p>
+			Далее приступаем к дефрагментации диска для HDD диска. Анализировать > Оптимизировать.
+		</p>
+		<img src="baza/d4.png" width="600">
+		<p>
+			Если у вас SSD диск, то кликаем на SSD диск > Изменить параметр > Убираем галочку на Выполнять по расписанию.
+		</p>
+		<img src="baza/ssd.png" width="600">
+		<h1 id="mce-head-6"></h1>
+		<p>
+			Очищаем временые файлы, корзину, кэш.
+		</p>
+		<img src="baza/d5.png" width="600">
+		<img src="baza/d6.png" width="600">
+		<h1 id="mce-head-7"></h1>
+		<p>
+			Удаляем контрольные точки восстановления, если они есть.
+		</p>
+		<img src="baza/d7.png" width="600">
+	</div>
+	<div>
+		<h1>
+			Фоновые приложения и автозагрузка.
+		</h1>
+		<h1 id="mce-head-8"></h1>
+		<p>
+			Приложения на фоне и при загрузки сильно тормозят ПК, и занимают оперативную память.
+		</p>
+		<h3>
+			Фоновые приложения
+		</h3>
+		<img src="baza/f1.png" width="600">
+		<p>
+			Тут я полностью отключаю фоновые приложения. Вы можете оставить те приложения с которыми часто работаете 
+		</p>
+		<img src="baza/f2.png" width="600">
+		<h1 id="mce-head-9"></h1>
+		<h3>
+			Автозагрузка
+		</h3>
+		<p>
+			При включении ПК, у польщователей часто запукаются не нужные приложения, это очень тормозит компьютер. Тут я включаю только самые нужные приложения, которые требуется запускать каждый день.
+		</p>
+		<img src="baza/dis.png" width="500">
+	</div>
+	<div>
+		<h1 id="mce-head-10"></h1>
+		<h1>
+			Удаление не нужных приложений Microsoft и других программ. Как надо удалять.
+		</h1>
+		<h1 id="mce-head-11"></h1>
+		<p>
+			При установки Windows, Microsoft скачивает еще кучу не нужного хлама, который обычный юзер, не будет использовать. 
+		</p>
+		<h1>
+			Простое удаление приложений Microsoft
+		</h1>
+		<p>
+			Заходим в Парметры панели задач > Приложения > Приложения и возможности, прокручиваем в самый низ.
+		</p>
+		<img src="baza/pr1.png" width="600">
+		<p>
+			На скриншоте все не активные приложения уже очистил. Скажу какие приложения я удалил:
+		</p>
+		<div class="info">
+			<input id="info__body_3" class="info__button_2" type="checkbox">
+			<label for="info__body_3" class="info__headline_2">
+				Список приложений 
+			</label>
+		  	<div class="info__body_2">
+				<p>
+					<li>Office</li> <li>OneNote for Windows 10</li><li> Outlook</li> <li>Записки</li> <li>Запись голоса</li><li> Набросок на фрагмент экрана</li><li> Погода</li><li> Портал смешнной реальности</li><li> Расширение для изображений HIEF( и для Webp )</li><li> расширение для интернет-мультимедия</li><li> Советы</li><li> Средство для 3D-просмотра</li> <li> Xbox Game Bar</li><li> Xbox Live</li><li> Компаньон консоли Xbox</li><li> Центр отзывов</li><li> Яндекс музыка (она устанавливается при установки Windows)</li> 
+				</p>
+				
+			</div>
+		</div>
+		<p>
+			Приложения которые нельзя удлаить, смотреть в этот раздел, ссылка.
+		</p>
+		<p>
+			Удаляйте приложения, те с которыми вы не работаете и не успользуете. Возможно список моих программ, которые я удалил будет отличаться от ваших. 
+		</p>
+		<img src="baza/pr2.png" width="600">
+		<h1 id="mce-head-12"></h1>
+		<h1>
+			Первый вариант удаление "неудаляемых" приложений Windows и не только других программ.
+		</h1>
+		<p>
+			Удаляю я программы с помощью программы <a href="https://www.revouninstaller.com/ru/revo-uninstaller-free-download/">Revo Uninstaller</a>. В чем его приемущество от обычного удаления? Эта программа удаляет, не только само приложения, но и подчищает реестр и временые файлы в системе. С его помощью так же можно удалить "неудаляемые" приложения Windows. Revo Uninstaller так же можно удалять другие программы, не оставляя следов в реестре. Очень полезная штука.
+		</p>
+		<p>
+			ПКМ по приложению > Удалить
+		</p>
+		<img src="baza/re1.png" width="600">
+		<p>
+			Я не создаю точку восстановления.
+		</p>
+		<img src="baza/re2.png" width="600">
+		<p>
+			Выбрать всё > Удалить. Таким образом мы почистили реестр. 
+		</p>
+		<img src="baza/re3.png" width="600">
+		<img src="baza/re4.png" width="600">
+		<h1 id="mce-head-13"></h1>
+		<p>
+			Так же может еще раз вылезти окно с временными файлами, их мы тоже удаляем. Выбрать всё > Удалить.
+		</p>
+		<h1>
+			Второй способ удаление "неудаляемых" приложений Windows
+		</h1>
+		<p>
+			Для этого нам надо скачать специальный архив с PowerShell, специализированный на удаление встроеных приложений Windows.<a href="https://drive.google.com/file/d/1IljgHWD7UQmDtdoBkDzMRa-YVVXgINNb/view?usp=share_link"> Архив</a>
+		</p>
+		<p>
+			ПКМ по приложению, которые нужно удалить > Выполнить с помощью PowerShell. 
+		</p>
+		<p>
+			Внимательно смотрите на приложение, которое удаляете. Так же есть папка с возвратом программы в случае чего. Инструкция по восстановлению в архиве.
+		</p>
+		<img src="baza/pw.png">
+	</div>
+	<div>
+		<h1 id="mce-head-14"></h1>
+		<h1>
+			Специальные возможности
+		</h1>
+		<p>
+			Тут мы будем убирать лишнии функции для людей имеющие ограниченные возможноти и упрощать работу с клавиатурой. Если у вас проблемы со слухом или со зрением, тогда пропускайте некоторые этапы.
+		</p>
+		<p>
+			Заходим в Панель управления (ставим маленькие значки) > Центр специальных возможностей.
+		</p>
+		<img src="baza/sp1.png" width="600">
+		<p>
+			Убираем эти две галочки
+		</p>
+		<img src="baza/sp2.png" width="600">
+		<p>
+			Далее смотрим на Просмотр всех параметров.
+		</p>
+		<p>
+			
+			
+			 
+			
+				 
+				
+				
+			
+			 
+				 
+				
+			
+		</p>
+		<div class="info">
+			<input id="info__body_4" class="info__button_3" type="checkbox">
+			<label for="info__body_4" class="info__headline_3">
+				Использование компьютера без дисплея 
+			</label>
+		  	<div class="info__body_3">
+		  		<img src="baza/v1.png" width="600">
+		  	</div>
+		 </div>
+		<div class="info">
+			<input id="info__body_5" class="info__button_4" type="checkbox">
+			<label for="info__body_5" class="info__headline_4">
+				Оптимизация изображения на экране 
+			</label>
+		  	<div class="info__body_4">
+		  		<img src="baza/v2_2.png" width="600">
+		  		<img src="baza/v2.png" width="600">
+		  	</div>
+		 </div>
+		 <div class="info">
+			<input id="info__body_7" class="info__button_6" type="checkbox">
+			<label for="info__body_7" class="info__headline_6">
+				Использование компьютера без мыши или клавиатуры 
+			</label>
+		  	<div class="info__body_6">
+		  		<img src="baza/v3.png" width="600">
+		  	</div>
+		</div>
+
+		<div class="info">
+			<input id="info__body_8" class="info__button_7" type="checkbox">
+			<label for="info__body_8" class="info__headline_7">
+				Облегчение работы с клавиатурой 
+			</label>
+		  	<div class="info__body_7">
+		  		<img src="baza/v4.png" width="600">
+				<div class="info">
+					<input id="info__body_9" class="info__button_8" type="checkbox">
+					<label for="info__body_9" class="info__headline_8">
+						Настройка управления указателем 
+					</label>
+					<div class="info__body_8">
+						<img src="baza/v4_1_1.png" width="600">
+					</div>
+				</div>
+				<div class="info">
+					<input id="info__body_10" class="info__button_9" type="checkbox">
+					<label for="info__body_10" class="info__headline_9">
+						Настройка залипания клавиш 
+					</label>
+					<div class="info__body_9">
+						<img src="baza/v4_1_2.png" width="600">
+					</div>
+				</div>
+				<div class="info">
+					<input id="info__body_11" class="info__button_10" type="checkbox">
+					<label for="info__body_11" class="info__headline_10">
+						Настройка фильтрации ввода 
+					</label>
+					<div class="info__body_10">
+						<img src="baza/v4_1_3.png" width="600">
+					</div>
+				</div>
+		  	</div>
+		 </div>
+		<div class="info">
+			<input id="info__body_12" class="info__button_11" type="checkbox">
+			<label for="info__body_12" class="info__headline_11">
+				Использование текста или зрительных образов вместо звука 
+			</label>
+			<div class="info__body_11">
+				<img src="baza/v5.png" width="600">
+			</div>
+		</div>
+		<div class="info">
+			<input id="info__body_13" class="info__button_12" type="checkbox">
+			<label for="info__body_13" class="info__headline_12">
+				Облегчение работы 
+			</label>
+			<div class="info__body_12">
+				<img src="baza/v6.png" width="600">
+				<img src="baza/v6_1.png" width="600">
+				<div class="info">
+				</div>
+				<div class="info">
+					<input id="info__body_15" class="info__button_14" type="checkbox">
+					<label for="info__body_15" class="info__headline_14">
+						Настройка залипание клавиш 
+					</label>
+					<div class="info__body_14">
+						<img src="baza/v6_1_1.png" width="600">
+					</div>
+				</div>
+				<div class="info">
+					<input id="info__body_16" class="info__button_15" type="checkbox">
+					<label for="info__body_16" class="info__headline_15">
+						Настройки фильтрации ввода 
+					</label>
+					<div class="info__body_15">
+						<img src="baza/v6_1_2.png" width="600">
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="info">
+			<input id="info__body_17" class="info__button_16" type="checkbox">
+			<label for="info__body_17" class="info__headline_16">
+				Облегчение использования сенсорных панелей и планшетов 
+			</label>
+			<div class="info__body_16">
+				<img src="baza/v7.png" width="600">
+			</div>
+		</div>
+	</div>
+</div>
+</body>
+</html>
